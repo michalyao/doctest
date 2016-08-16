@@ -16,4 +16,5 @@ Thumbs.db
 
 /.classpath
 /.project
+/node_modules
 /swagger2markup-1.0.2-SNAPSHOT.jar
