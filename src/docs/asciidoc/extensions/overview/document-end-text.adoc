@@ -1,3 +1,4 @@
-== Document end hook
+== 总览结束处扩展文本
 
-Dummy text in document end hook
+在此处手动编辑添加总览的扩展说明等文字，如果不需要设置扩展在pom.xml文件中注释掉
+<swagger2markup.extensions.dynamicOverview.contentPath>${project.basedir}/src/docs/asciidoc/extensions/overview</swagger2markup.extensions.dynamicOverview.contentPath>

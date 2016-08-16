@@ -1,0 +1,18 @@
+get:
+  tags: 
+    - reference
+  description: '获取资源的指标详情'
+  operationId: 'getResourceMetricsByName'
+  parameters:
+    - name: name
+      in: query
+      type: string
+      description: '采集资源名称'
+  responses: 
+    200:
+      description: '返回资源的指标详情'
+      schema:
+        type: array
+        items: 
+          $ref: '#/definitions/MetricReference'
+ 

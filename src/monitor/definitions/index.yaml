@@ -1,0 +1,13 @@
+Dashboard:
+  $ref: ./Dashboard.yaml
+MineDashboard:
+  $ref: ./MineDashboard.yaml
+RichDashboardMetadata:
+  $ref: ./MineDashboard.yaml
+Dashwindow:
+  $ref: ./Dashwindow.yaml
+ResourceReference:
+  $ref: ./ResourceReference.yaml
+MetricReference:
+  $ref: ./MetricReference.yaml
+  

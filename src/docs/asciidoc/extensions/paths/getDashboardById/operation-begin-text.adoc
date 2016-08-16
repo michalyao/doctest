@@ -1,0 +1,5 @@
+== 操作方法开始处扩展说明
+
+在此处手动编辑添加总览的扩展说明等文字，如果不需要设置扩展在pom.xml文件中注释掉
+<swagger2markup.extensions.dynamicPaths.contentPath>${project.basedir}/src/docs/asciidoc/extensions/paths</swagger2markup.extensions.dynamicPaths.contentPath>
+

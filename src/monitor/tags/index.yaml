@@ -1,0 +1,6 @@
+- name: DashBoard
+  description: 仪表盘相关 API
+- name: DashWindow
+  description: balabala
+- name: Reference
+  description: 采集手册相关 API

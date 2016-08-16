@@ -1,0 +1,4 @@
+== 具体定义的开始处扩展文本
+
+首先新建一个文件夹，名称与定义的名称相同。然后在此处手动编辑添加具体的定义的扩展说明等文字，如果不需要设置扩展在pom.xml文件中注释掉
+<swagger2markup.extensions.dynamicDefinitions.contentPath>${project.basedir}/src/docs/asciidoc/extensions/definitions</swagger2markup.extensions.dynamicDefinitions.contentPath>

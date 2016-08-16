@@ -1,0 +1,16 @@
+get:
+  tags:
+    - dashboards
+  description: '仪表盘是否存在'
+  operationId: isDashboardExist
+  parameters:
+    - name: tenantId
+      in: query
+      type: string
+      description: '租户Id'
+  responses:
+    200:
+      description: '租户是否有仪表盘'
+      schema:
+        type: boolean
+  

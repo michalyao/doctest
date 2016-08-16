@@ -1,0 +1,13 @@
+type: object
+description: '仪表盘详情'      
+properties:
+  id:
+    type: string
+  name:
+    type: string
+  favourite:
+    type: boolean
+  dashwindows:
+    type: array
+    items:
+      $ref: '/Dashwindow.yaml'

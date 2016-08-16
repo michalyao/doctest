@@ -1,3 +1,0 @@
-== Definition before hook
-
-Dummy text in definition before hook

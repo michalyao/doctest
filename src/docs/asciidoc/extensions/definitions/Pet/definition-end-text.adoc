@@ -1,3 +1,0 @@
-== Definition end hook
-
-Dummy text in definition end hook

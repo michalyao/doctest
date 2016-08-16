@@ -1,0 +1,19 @@
+type: object
+description: '指标参考'
+properties:
+  name:
+    type: string
+  descr:
+    type: string
+  unit:
+    type: string
+  valueMin:
+    type: number
+    format: double
+  valueMax:
+    type: number
+    format: double
+  accuracy:
+    type: integer
+  dataType:
+    type: string
