@@ -1,0 +1,13 @@
+type: object
+description: '资源参考'      
+properties:
+  id:
+    type: string
+  name:
+    type: string
+  desc:
+    type: string
+  iconUrl:
+    type: string
+  manualUrl:
+    type: string

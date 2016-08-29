@@ -1,0 +1,29 @@
+get:
+  tags:
+    - dashboards    
+  description: '通过名字查询仪表盘列表'
+  operationId: searchDashboardByName 
+  parameters:
+    - name: userId
+      in: query
+      type: string
+      description: '用户Id'
+    - name: tenantId
+      in: query
+      type: string
+      description: '租户Id'
+    - name: name
+      in: query
+      type: string
+      description: '仪表盘名称'
+    - name: limit
+      in: query
+      type: integer
+      default: 10
+      description: '仪表盘名称'
+  responses:
+    200:
+      description: '返回仪表盘列表'
+      schema:
+        $ref: '#/definitions/RichDashboardMetadata'
+  

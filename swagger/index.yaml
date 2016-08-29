@@ -1,0 +1,19 @@
+swagger: '2.0'
+info:
+  version: '2.0'
+  title: uyun-monitor front API
+  description: 提供前端所需API
+host: monitor.uyuntest.cn
+schemes:
+  - https
+basePath: /api/v2
+produces: 
+  - application/json
+consumes:
+  - applicaiton/json
+tags:
+  $ref: ./tags/index.yaml
+paths:
+  $ref: ./paths/index.yaml
+definitions:
+  $ref: ./definitions/index.yaml

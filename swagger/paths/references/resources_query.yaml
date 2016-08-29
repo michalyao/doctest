@@ -1,0 +1,15 @@
+get:
+  tags: 
+    - reference
+  description: '获取资源参考'
+  operationId: getResourceRefByName
+  parameters:
+    - name: id
+      in: query
+      type: string
+      description: '资源Id'
+  responses:
+    200:
+      description: '返回资源参考'
+      schema:
+        $ref: '#/definitions/ResourceReference'

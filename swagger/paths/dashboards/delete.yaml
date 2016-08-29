@@ -1,0 +1,22 @@
+post:
+  tags:
+    - dashboards 
+  description: '删除仪表盘'
+  operationId: deleteDashboard 
+  parameters:
+    - name: userId
+      in: query
+      type: string
+      description: '用户Id'
+    - name: tenantId
+      in: query
+      type: string
+      description: '租户Id'
+    - name: dashboard
+      in: body
+      description: '入参'
+      schema: 
+        $ref: '#/definitions/Dashboard'
+  responses:
+    204:
+      description: '删除成功'
