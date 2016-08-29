@@ -1,9 +1,0 @@
-type: object
-description: '仪表盘详情列表'      
-properties:
-  id:
-    type: string
-  name:
-    type: string
-  favourite:
-    type: boolean

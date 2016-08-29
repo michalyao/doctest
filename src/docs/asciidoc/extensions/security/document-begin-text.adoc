@@ -1,4 +1,0 @@
-== 安全开始处扩展文本
-
-在此处手动编辑添加安全的扩展说明等文字，如果不需要设置扩展在pom.xml文件中注释掉
-<swagger2markup.extensions.dynamicSecurity.contentPath>${project.basedir}src/docs/asciidoc/extensions/security</swagger2markup.extensions.dynamicSecurity.contentPath>
